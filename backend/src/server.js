@@ -14,7 +14,7 @@ const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
     origin: [
-      "http://localhost:5173", // citizen
+      "https://civic-issues-delta.vercel.app", // citizen
       "http://localhost:5174", // admin
       "http://localhost:5175", // department
     ],

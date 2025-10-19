@@ -13,7 +13,7 @@ const app = express();
 app.use(
   cors({
     origin: [
-     "http://localhost:5173", // citizen app (Vite)
+     "https://civic-issues-delta.vercel.app", // citizen app (Vite)
       "http://localhost:5174", // admin app (Vite)
       "http://localhost:3000",
       "http://localhost:5175", // optional CRA port
