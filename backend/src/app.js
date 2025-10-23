@@ -13,15 +13,25 @@ const app = express();
 app.use(
   cors({
     origin: [
-     "https://civic-issues-delta.vercel.app", // citizen app (Vite)
-      "http://localhost:5174", // admin app (Vite)
-      "http://localhost:3000",
-      "http://localhost:5175", // optional CRA port
+      // ✅ Live Production URLs
+      "https://civic-issues-delta.vercel.app", // citizen (frontend)
+      "https://civic-department.vercel.app",   // department
+      "https://civic-issue-admin-ruddy.vercel.app", // admin
+      "https://civic-issues-main-page.vercel.app",  // civic hub landing page
+
+      // ✅ Render backend URL (for internal testing)
+      "https://civic-issues-0c9c.onrender.com",
+
+      // ✅ Local development (optional)
+      "http://localhost:5173",
+      "http://localhost:5174",
+      "http://localhost:5175",
     ],
     methods: ["GET", "POST", "PATCH", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
   })
 );
+
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
