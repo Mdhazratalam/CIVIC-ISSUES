@@ -22,7 +22,7 @@ export default function CreateReport() {
   // ✅ Load departments from backend
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/departments")
+      .get("https://civic-issues-0c9c.onrender.com/api/departments")
       .then((res) => setDepartments(res.data))
       .catch(() => setDepartments([]));
   }, []);
