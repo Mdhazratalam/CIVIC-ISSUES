@@ -88,6 +88,7 @@ All images (proofs, reports) are securely uploaded to **Cloudinary CDN**, ensuri
 ### 1️⃣ Clone the Repository
 
 git clone https://github.com/Mdhazratalam/CIVIC-ISSUES.git
+
 cd CIVIC-ISSUES
 
 
