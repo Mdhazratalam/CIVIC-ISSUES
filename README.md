@@ -5,7 +5,7 @@ It empowers citizens to **report civic problems** (like potholes, electricity fa
 
 ---
 
-## 🚀 Live Deployments
+##  Live Deployments
 
 | App Section | URL |
 |--------------|-----|
@@ -17,7 +17,7 @@ It empowers citizens to **report civic problems** (like potholes, electricity fa
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 ### **Frontend (All Dashboards)**
 - React.js (Vite)
@@ -40,9 +40,9 @@ It empowers citizens to **report civic problems** (like potholes, electricity fa
 
 ---
 
-## 👥 Roles and Features
+##  Roles and Features
 
-### 👨‍💻 Citizen
+###  Citizen
 - Register and login securely
 - Report civic issues with image, location & description
 - Track issue status: Pending → In Progress → Resolved
@@ -50,14 +50,14 @@ It empowers citizens to **report civic problems** (like potholes, electricity fa
 - Delete own reports
 - View issues on an interactive map
 
-### 🏢 Department
+###  Department
 - Login with department credentials
 - View assigned issues with images and details
 - Update status (Pending → In Progress → Resolved)
 - Upload proof images for completed work
 - Real-time chat with citizens
 
-### 🧑‍⚖️ Admin
+###  Admin
 - Manage all users and departments
 - View analytics & reports of all issues
 - Monitor city-wide status distribution (Pending, In Progress, Resolved)
@@ -65,7 +65,7 @@ It empowers citizens to **report civic problems** (like potholes, electricity fa
 
 ---
 
-## 💬 Real-Time Chat (Socket.IO)
+##  Real-Time Chat (Socket.IO)
 Both citizens and departments can communicate through a **live chat window** associated with each report.  
 - Automatically joins chat rooms based on report IDs  
 - Real-time updates via WebSocket (Socket.IO)  
@@ -73,17 +73,17 @@ Both citizens and departments can communicate through a **live chat window** ass
 
 ---
 
-## 🌍 Map Integration
+##  Map Integration
 Citizens can view the location of their reports directly on a map view (integrated via coordinates — latitude & longitude fields).
 
 ---
 
-## 📸 Image Uploads (Cloudinary)
+##  Image Uploads (Cloudinary)
 All images (proofs, reports) are securely uploaded to **Cloudinary CDN**, ensuring fast access and optimized performance.
 
 ---
 
-## ⚙️ Project Structure
+##  Project Structure
 
 ```
 CIVIC-ISSUE-APP/
@@ -97,7 +97,7 @@ CIVIC-ISSUE-APP/
 
 ---
 
-## 🧩 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |--------|-----------|-------------|
@@ -110,7 +110,7 @@ CIVIC-ISSUE-APP/
 
 ---
 
-## 🧠 Key Highlights
+##  Key Highlights
 - **Full-stack modular architecture**  
 - **Multi-dashboard system** (Citizen / Department / Admin)  
 - **Fully deployed** with Render + Vercel  
@@ -121,7 +121,7 @@ CIVIC-ISSUE-APP/
 
 ---
 
-## 🛠️ Setup & Installation
+##  Setup & Installation
 
 ### 1️⃣ Clone the Repository
 ```bash
@@ -169,14 +169,14 @@ npm run dev
 
 ---
 
-## 📊 Deployment
+##  Deployment
 - **Backend:** Render (`https://civic-issues-0c9c.onrender.com`)  
 - **Frontend (Citizen/Admin/Dept/Hub):** Vercel  
 - CORS configured for all deployed origins
 
 ---
 
-## 💡 Future Enhancements
+##  Future Enhancements
 - AI-based auto-routing of issues to departments  
 - Geo-location based citizen grouping  
 - Mobile app version (React Native)  
@@ -184,17 +184,10 @@ npm run dev
 - Public analytics dashboard for city transparency
 
 ---
-
-## 👨‍💻 Author
+##  Author
 **Md Hazrat Alam**  
-🎓 Engineering Student (Computer Science)  
-💡 Passionate about full-stack development, civic-tech, and AI-driven innovation.  
+ Engineering Student (Computer Science)  
+ Passionate about full-stack development, civic-tech, and AI-driven innovation.  
 
 📧 [Email me](mailto:alammdhazrat743@gmail.com)  
 🔗 [GitHub Profile](https://github.com/Mdhazratalam)
-
----
-
-## 🕊️ Acknowledgment
-> Built with passion, persistence, and purpose —  
-> “In the name of Allah, who teaches patience, precision, and progress.”
