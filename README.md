@@ -101,9 +101,9 @@ cd ../department-dashboard && npm install
 cd ../civic-hub && npm install
 
 
+
 3️⃣ Set Up Environment Variables
 Create a .env file in /backend:
-
 PORT=5000
 MONGO_URI=your_mongodb_atlas_uri
 JWT_SECRET=your_secret_key
@@ -116,16 +116,19 @@ EMAIL_USER=your_email
 EMAIL_PASS=your_app_password
 FRONTEND_URL=https://civic-issues-delta.vercel.app
 
+
 4️⃣ Start Backend
 cd backend
 npm run dev
 
-5️⃣ Start Frontend (Example for Citizen App)
 
+5️⃣ Start Frontend (Example for Citizen App)
 cd frontend
 npm run dev
 
+
 📊 Deployment
+
 Backend: Render (https://civic-issues-0c9c.onrender.com)
 
 Frontend (Citizen/Admin/Dept/Hub): Vercel
@@ -138,6 +141,5 @@ Md Hazrat Alam
 
 📧 Email me alammdhazrat743@gmail.com
 
-🔗 GitHub 
 
 
