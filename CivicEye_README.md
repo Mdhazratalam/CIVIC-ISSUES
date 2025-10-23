@@ -186,15 +186,10 @@ npm run dev
 ---
 
 ## 👨‍💻 Author
-**Sonu Kumar Pandit**  
+Md Hazrat Alam
 🎓 Engineering Student (Computer Science)  
 💡 Passionate about full-stack development, civic-tech, and AI-driven innovation.  
 
-📧 [Email me](mailto:220101120094@cutm.ac.in)  
+📧 [Email me](alammdhazrat743@gmail.com)  
 🔗 [GitHub Profile](https://github.com/Mdhazratalam)
 
----
-
-## 🕊️ Acknowledgment
-> Built with passion, persistence, and purpose —  
-> “In the name of Allah, who teaches patience, precision, and progress.”
