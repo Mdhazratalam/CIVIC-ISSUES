@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosClient = axios.create({
-  baseURL: "https://civic-issues-0c9c.onrender.com", // backend base URL
+  baseURL: "https://civic-issues-0c9c.onrender.com/api", // backend base URL
 });
 
 // automatically attach token if user logged in
