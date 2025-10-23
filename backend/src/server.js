@@ -15,12 +15,19 @@ const io = new Server(server, {
   cors: {
     origin: [
       "https://civic-issues-delta.vercel.app", // citizen
-      "http://localhost:5174", // admin
-      "http://localhost:5175", // department
+      "https://civic-department.vercel.app",   // department
+      "https://civic-issue-admin-ruddy.vercel.app", // admin
+      "https://civic-issues-main-page.vercel.app",  // civic hub landing page
+      "https://civic-issues-0c9c.onrender.com", // render backend
+      "http://localhost:5173",
+      "http://localhost:5174",
+      "http://localhost:5175",
     ],
     methods: ["GET", "POST"],
+    credentials: true,
   },
 });
+
 
 // ✅ Connect MongoDB
 connectDB();
