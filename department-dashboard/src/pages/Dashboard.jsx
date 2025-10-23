@@ -23,7 +23,7 @@ export default function Dashboard() {
     try {
       const token = localStorage.getItem("deptToken");
       const res = await axios.get(
-        `http://localhost:5000/api/department-reports/${department.name}`,
+        `https://civic-issues-0c9c.onrender.com/api/department-reports/${department.name}`,
         { headers: { Authorization: `Bearer ${token}` } }
       );
 
@@ -59,7 +59,7 @@ export default function Dashboard() {
       if (file) formData.append("file", file);
 
       await axios.patch(
-        `http://localhost:5000/api/department-reports/${id}`,
+        `https://civic-issues-0c9c.onrender.com/api/department-reports/${id}`,
         formData,
         { headers: { Authorization: `Bearer ${token}` } }
       );
