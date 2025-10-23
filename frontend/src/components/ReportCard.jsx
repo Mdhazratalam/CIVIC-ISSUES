@@ -13,7 +13,7 @@ export default function ReportCard({ report, onDelete }) {
 
     try {
       const token = localStorage.getItem("token");
-      await axios.delete(`http://localhost:5000/api/reports/${report._id}`, {
+      await axios.delete(`https://civic-issues-0c9c.onrender.com/api/reports/${report._id}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       alert("Report deleted successfully!");
