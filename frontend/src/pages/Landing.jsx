@@ -1,6 +1,7 @@
 
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import Chatbot from "../components/Chatbot";
 import {
   FaMapMarkedAlt,
   FaComments,
@@ -24,7 +25,7 @@ export default function Landing() {
             className="text-center space-y-8"
           >
             <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-              Empower Your City with{" "}
+             Smart Civic Issue Reporting System{" "}
               <span className="text-yellow-300">CivicEye</span>
             </h1>
 
@@ -273,6 +274,7 @@ export default function Landing() {
           </div>
         </div>
       </footer>
+      <Chatbot />
     </div>
   );
 }
