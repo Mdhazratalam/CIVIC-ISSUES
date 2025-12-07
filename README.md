@@ -7,7 +7,7 @@ A full-stack web application enabling citizens to report civic issues (like sani
 - **Citizen Frontend** (Vercel): [https://civic-issues-delta.vercel.app](https://civic-issues-delta.vercel.app)
 - **Department Dashboard** (Vercel): [https://civic-department.vercel.app](https://civic-department.vercel.app)
 - **Admin Dashboard** (Vercel): [https://civic-issue-admin-ruddy.vercel.app](https://civic-issue-admin-ruddy.vercel.app)
-- **Backend API** (Render): [https://civic-issues-0c9c.onrender.com](https://civic-issues-0c9c.onrender.com)
+
 
 ---
 
