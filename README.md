@@ -63,3 +63,29 @@ A full-stack web application enabling citizens to report civic issues (like sani
 ```bash
 cd backend
 npm install
+Create a .env file inside /backend:
+PORT=5000
+MONGO_URI=your_mongo_connection_string
+EMAIL_USER=your_gmail_account
+EMAIL_PASS=your_app_password
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+JWT_SECRET=your_jwt_secret
+
+Then start backend:
+
+npm run dev
+Frontend Setup (for any panel: citizen, admin, department)
+cd [frontend-folder-name]
+npm install
+npm run dev
+
+Folder Structure
+CIVIC-ISSUES/
+├── backend/             # Node.js + Express API
+├── citizen-frontend/    # React frontend for citizens
+├── admin-dashboard/     # Admin panel
+├── department-panel/    # Department panel
+├── .gitignore
+├── README.md
