@@ -1,5 +1,4 @@
 
-
 import { motion } from "framer-motion";
 import { FaTrash } from "react-icons/fa";
 import axios from "axios";
@@ -13,7 +12,8 @@ export default function ReportCard({ report, onDelete }) {
 
     try {
       const token = localStorage.getItem("token");
-      await axios.delete(`http://localhost:5000/api/reports/${report._id}`, {
+      //await axios.delete(`http://localhost:5000/api/reports/${report._id}`, {
+      await axios.delete(`https://civic-issues-0c9c.onrender.com/api/reports/${report._id}`, {  
         headers: { Authorization: `Bearer ${token}` },
       });
       alert("Report deleted successfully!");
@@ -33,6 +33,13 @@ export default function ReportCard({ report, onDelete }) {
 
       {/* ✅ Description */}
       <p className="text-gray-500 mb-2">{report.description}</p>
+
+      {/* ✅ Address */}
+      {report.location?.address && (
+        <p className="text-sm text-gray-600 mb-2">
+          <strong>Address:</strong> {report.location.address}
+        </p>
+      )}
 
       {/* ✅ Image */}
       {report.imageUrl && (
@@ -62,9 +69,6 @@ export default function ReportCard({ report, onDelete }) {
             {report.status}
           </span>
         </span>
-        {/* <span>
-          <b>Votes:</b> {report.votes}
-        </span> */}
       </div>
 
       {/* ✅ Delete Button */}

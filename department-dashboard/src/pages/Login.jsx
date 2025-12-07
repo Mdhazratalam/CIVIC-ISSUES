@@ -18,7 +18,8 @@ export default function DepartmentLogin() {
     e.preventDefault();
     setLoading(true);
     try {
-      const { data } = await axios.post("http://localhost:5000/api/auth/login", form);
+      //const { data } = await axios.post("http://localhost:5000/api/auth/login", form);
+      const { data } = await axios.post("https://civic-issues-0c9c.onrender.com/api/auth/login", form);
 
       if (data.role === "department" && data.token) {
         login(data);

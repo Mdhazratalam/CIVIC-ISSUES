@@ -13,7 +13,17 @@ const app = express();
 app.use(
   cors({
     origin: [
-     "https://civic-issues-delta.vercel.app", // citizen app (Vite)
+       // ✅ Live Production URLs
+      "https://civic-issues-delta.vercel.app", // citizen app
+      "https://civic-department.vercel.app",   // department app
+      "https://civic-issue-admin-ruddy.vercel.app", // admin app
+      "https://civic-issues-main-page.vercel.app",  // landing page
+
+      // ✅ Render backend
+      "https://civic-issues-0c9c.onrender.com",
+
+      
+     "http://localhost:5173", // citizen app (Vite)
       "http://localhost:5174", // admin app (Vite)
       "http://localhost:3000",
       "http://localhost:5175", // optional CRA port

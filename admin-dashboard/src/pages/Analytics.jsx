@@ -22,7 +22,9 @@ export default function AdminAnalytics() {
     const fetchAnalytics = async () => {
       try {
         const token = localStorage.getItem("adminToken");
-        const res = await axios.get("http://localhost:5000/api/admin/analytics", {
+        //const res = await axios.get("http://localhost:5000/api/admin/analytics", {
+          const res = await axios.get("https://civic-issues-0c9c.onrender.com/api/admin/analytics", {
+
           headers: { Authorization: `Bearer ${token}` },
         });
         setData(res.data);

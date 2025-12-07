@@ -3,7 +3,8 @@
 import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:5000", { transports: ["websocket"] });
+//const socket = io("http://localhost:5000", { transports: ["websocket"] });
+const socket = io("https://civic-issues-0c9c.onrender.com", { transports: ["websocket"] });
 
 export default function ChatWindow({ chatId, user }) {
   const [messages, setMessages] = useState([]);

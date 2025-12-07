@@ -1,5 +1,3 @@
-
-
 const Report = require("../models/Report");
 const Department = require("../models/Department");
 const cloudinary = require("../config/cloudinary");

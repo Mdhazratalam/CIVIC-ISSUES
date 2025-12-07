@@ -4,7 +4,8 @@
 import axios from "axios";
 
 const axiosClient = axios.create({
-  baseURL: "http://localhost:5000/api",
+  //baseURL: "http://localhost:5000/api",
+  baseURL: "https://civic-issues-0c9c.onrender.com/api",
 });
 
 // ✅ Automatically include admin token
